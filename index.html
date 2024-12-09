@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votaciones para la Promoción Estudiantil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Votaciones para la Promoción Estudiantil</h1>
+    </header>
+    <main>
+        <!-- Sección de Logos -->
+        <section id="logos">
+            <h2>Logos</h2>
+            <div class="logos-container">
+                <!-- 20 Espacios para los logos -->
+                <div class="logo" id="logo1">
+                    <img src="images/11B.jpg" alt="Logo 1" onclick="openFullscreen('images/11B.jpg')">
+                    <p>11B</p>
+                    <button onclick="vote('logo1')">Votar</button>
+                    <p class="vote-count" data-id="logo1">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo2">
+                    <img src="images/11D.jpg" alt="Logo 2" onclick="openFullscreen('images/11D.jpg')">
+                    <p>11D</p>
+                    <button onclick="vote('logo2')">Votar</button>
+                    <p class="vote-count" data-id="logo2">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo3">
+                    <img src="images/11E.jpg" alt="Logo 3" onclick="openFullscreen('images/11E.jpg')">
+                    <p>11E</p>
+                    <button onclick="vote('logo3')">Votar</button>
+                    <p class="vote-count" data-id="logo3">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo4">
+                    <img src="images/11F.jpg" alt="Logo 4" onclick="openFullscreen('images/11F.jpg')">
+                    <p>11F</p>
+                    <button onclick="vote('logo4')">Votar</button>
+                    <p class="vote-count" data-id="logo4">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo5">
+                    <img src="images/11G.jpg" alt="Logo 5" onclick="openFullscreen('images/11G.jpg')">
+                    <p>11G</p>
+                    <button onclick="vote('logo5')">Votar</button>
+                    <p class="vote-count" data-id="logo5">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo6">
+                    <img src="images/11H.jpg" alt="Logo 6" onclick="openFullscreen('images/11H.jpg')">
+                    <p>11H</p>
+                    <button onclick="vote('logo6')">Votar</button>
+                    <p class="vote-count" data-id="logo6">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo7">
+                    <img src="images/11I.jpg" alt="Logo 7" onclick="openFullscreen('images/11I.jpg')">
+                    <p>11I</p>
+                    <button onclick="vote('logo7')">Votar</button>
+                    <p class="vote-count" data-id="logo7">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo8">
+                    <img src="images/11J.jpg" alt="Logo 8" onclick="openFullscreen('images/11J.jpg')">
+                    <p>11J</p>
+                    <button onclick="vote('logo8')">Votar</button>
+                    <p class="vote-count" data-id="logo8">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo9">
+                    <img src="images/11L.jpg" alt="Logo 9" onclick="openFullscreen('images/11L.jpg')">
+                    <p>11L</p>
+                    <button onclick="vote('logo9')">Votar</button>
+                    <p class="vote-count" data-id="logo9">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo10">
+                    <img src="images/11M.jpg" alt="Logo 10" onclick="openFullscreen('images/11M.jpg')">
+                    <p>11M</p>
+                    <button onclick="vote('logo10')">Votar</button>
+                    <p class="vote-count" data-id="logo10">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo11">
+                    <img src="images/11Ñ.jpg" alt="Logo 11" onclick="openFullscreen('images/11Ñ.jpg')">
+                    <p>11Ñ</p>
+                    <button onclick="vote('logo11')">Votar</button>
+                    <p class="vote-count" data-id="logo11">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo12">
+                    <img src="images/11O.jpg" alt="Logo 12" onclick="openFullscreen('images/11O.jpg')">
+                    <p>11O</p>
+                    <button onclick="vote('logo12')">Votar</button>
+                    <p class="vote-count" data-id="logo12">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo13">
+                    <img src="images/11P.jpg" alt="Logo 13" onclick="openFullscreen('images/11P.jpg')">
+                    <p>11P</p>
+                    <button onclick="vote('logo13')">Votar</button>
+                    <p class="vote-count" data-id="logo13">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo14">
+                    <img src="images/11Q.jpg" alt="Logo 14" onclick="openFullscreen('images/11Q.jpg')">
+                    <p>11Q</p>
+                    <button onclick="vote('logo14')">Votar</button>
+                    <p class="vote-count" data-id="logo14">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo15">
+                    <img src="images/11R.jpg" alt="Logo 15" onclick="openFullscreen('images/11R.jpg')">
+                    <p>11R</p>
+                    <button onclick="vote('logo15')">Votar</button>
+                    <p class="vote-count" data-id="logo15">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo16">
+                    <img src="images/11S.jpg" alt="Logo 16" onclick="openFullscreen('images/11S.jpg')">
+                    <p>11S</p>
+                    <button onclick="vote('logo16')">Votar</button>
+                    <p class="vote-count" data-id="logo16">Votos: 0</p>
+                </div>
+                <div class="logo" id="logo17">
+                    <img src="images/11A.jpg" alt="Logo 17" onclick="openFullscreen('images/11A.jpg')">
+                    <p>11A</p>
+                    <button onclick="vote('logo17')">Votar</button>
+                    <p class="vote-count" data-id="logo17">Votos: 0</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal de Imagen en Pantalla Completa -->
+        <div id="fullscreen-view">
+            <span onclick="closeFullscreen()">X</span>
+            <img id="fullscreen-image" src="" alt="Imagen a Pantalla Completa">
+        </div>
+
+        <!-- Sección de Nombres -->
+        <section id="nombres">
+            <h2>Nombres</h2>
+            <div class="nombres-container">
+                <!-- 25 Espacios para los nombres -->
+                <div class="nombre" id="nombre1">
+                    <h3>Magnitudo humilium</h3>
+                    <p>Significado del Nombre: la grandeza de los humildes</p>
+                    <button onclick="vote('nombre1')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre2">
+                    <h3>Azairus</h3>
+                    <p>Significado del Nombre: Ir hacía un nuevo destino</p>
+                    <button onclick="vote('nombre2')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre3">
+                    <h3>Zephyris</h3>
+                    <p>Significado del Nombre: El viento que lleva hacía adelante</p>
+                    <button onclick="vote('nombre3')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre4">
+                    <h3>Metanoia</h3>
+                    <p>Significado del Nombre: Cambio de mente, transformación </p>
+                    <button onclick="vote('nombre4')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre5">
+                    <h3>Kaizen</h3>
+                    <p>Significado del Nombre: Es el cambio a mejor, voluntad de mejorar constantemente.Para el kaizen todo proceso de cambio debe comenzar con una decisión y debe ser progresivo en el tiempo. Hoy mejor que ayer, mañana mejor que hoy”, esta es la máxima que defiende el kaizen, una palabra japonesa que significa “mejora continua”.</p>
+                    <button onclick="vote('nombre5')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre6">
+                    <h3>Nexus</h3>
+                    <p>Significado del Nombre: Nosotros estudiamos por un sueño</p>
+                    <button onclick="vote('nombre6')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre7">
+                    <h3>Phisius</h3>
+                    <p>Significado del Nombre: Por hoy y siempre iluminando un sueño</p>
+                    <button onclick="vote('nombre7')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre8">
+                    <h3>Deus</h3>
+                    <p>Significado del Nombre: "Deus" es una palabra en latín que significa "Dios". Es utilizada principalmente en contextos religiosos, filosóficos o literarios para referirse a una deidad o al concepto de un ser supremo. </p>
+                    <button onclick="vote('nombre8')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre9">
+                    <h3>Ravethor</h3>
+                    <p>Significado del Nombre: Portador de la verdad, asociado con la búsqueda de conocimiento y justicia.</p>
+                    <button onclick="vote('nombre9')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre10">
+                    <h3>Renaissance</h3>
+                    <p>Significado del Nombre: Un nombre que simboliza nuevos comienzos y celebraciones.</p>
+                    <button onclick="vote('nombre10')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre11">
+                    <h3>Radiustrang</h3>
+                    <p>Significado del Nombre: (Fuerza radiante): Ideal para un evento luminoso y memorable.</p>
+                    <button onclick="vote('nombre11')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre12">
+                    <h3>Onicex</h3>
+                    <p>Significado del Nombre: Garra brillante, un nombre que sugiere poder y elegancia. </p>
+                    <button onclick="vote('nombre12')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre13">
+                    <h3>Hidra</h3>
+                    <p>Significado del Nombre: Hidra simboliza la complejidad de la vida y los desafíos que enfrentamos. Su capacidad de regenerar cabezas representa la resiliencia y la lucha constante contra las adversidades, así como la tendencia de los problemas a multiplicarse si no se abordan adecuadamente. </p>
+                    <button onclick="vote('nombre13')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre14">
+                    <h3>Syrax</h3>
+                    <p>Significado del Nombre: Refleja la relación de Rhaenyra con su poder y su lucha por el trono. El dragón tiene una conexión especial con ella, siendo el símbolo de su derecho al trono de hierro.</p>
+                    <button onclick="vote('nombre14')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre15">
+                    <h3> Vhagar</h3>
+                    <p>Significado del Nombre: Simboliza la autoridad y la fuerza, especialmente en los momentos más cruciales de la historia de los Targaryen. El dragón era conocido por su tamaño y temible poder, lo que lo hacía una figura central en las batallas.</p>
+                    <button onclick="vote('nombre15')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre16">
+                    <h3>CARPE DIEM</h3>
+                    <p>Significado del Nombre: "Aprovecha el día" o "Disfruta el momento".</p>
+                    <button onclick="vote('nombre16')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre17">
+                    <h3>CELANS</h3>
+                    <p>Significado del Nombre: Celans podría aludir a algo celestial, elevado o relacionado con el cielo y la pureza.</p>
+                    <button onclick="vote('nombre17')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre18">
+                    <h3>SAGEZZA</h3>
+                    <p>Significado del Nombre: "Sabiduría". Representa conocimiento, prudencia y la capacidad de tomar decisiones sabias, evocando un ideal elevado y respetado.</p>
+                    <button onclick="vote('nombre18')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre19">
+                    <h3>PIONNIERS</h3>
+                    <p>Significado del Nombre: Proviene del francés antiguo esta palabra sugiere a personas que son innovadoras, creativas y únicas, y que están liderando el camino hacia el futuro, contribuyendo de manera valiosa a la "generación de oro".</p>
+                    <button onclick="vote('nombre19')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre20">
+                    <h3>Imperium</h3>
+                    <p>Significado del Nombre: En la antigua Roma, el término se usaba para referirse a la autoridad suprema que un magistrado o líder tenía para gobernar y comandar, especialmente en el contexto militar y político.</p>
+                    <button onclick="vote('nombre20')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre21">
+                    <h3>Fortus</h3>
+                    <p>Significado del Nombre: Fortaleza, Organización, Respeto, Trabajo, Unidad, Superación.</p>
+                    <button onclick="vote('nombre21')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre22">
+                    <h3>Larus</h3>
+                    <p>Significado del Nombre: Liderazgo, Amistad, Respeto, Unidad, Solidaridad.</p>
+                    <button onclick="vote('nombre22')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre23">
+                    <h3>Alesus</h3>
+                    <p>Significado del Nombre: Aunque Lejos estemos siempre uno seremos.</p>
+                    <button onclick="vote('nombre23')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre24">
+                    <h3>ELION</h3>
+                    <p>Significado del Nombre: Supremacía y Autoridad.</p>
+                    <button onclick="vote('nombre24')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Enora</h3>
+                    <p>Significado del Nombre: Es un nombre de origen celta que significa "luz" o "brillanteza". A menudo se asocia con la idea de claridad y guía.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Athena</h3>
+                    <p>Significado del Nombre: Diosa griega de la sabiduría, la guerra, la estrategia militar, la justicia y la artesanía.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>NEXUS</h3>
+                    <p>Significado del Nombre: Nosotros estudiamos por un sueño. </p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>ELXUS</h3>
+                    <p>Significado del Nombre: Estudiantes luchan por un sueño y por una meta en común</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>BLESSED</h3>
+                    <p>Significado del Nombre: Gratitud Y orgullo por haber llegado a esta etapa apesar de muchas luchas y esfuerzos.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Aurum Ignis</h3>
+                    <p>Significado del Nombre: Fuego dorado.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Euphoria</h3>
+                    <p>Significado del Nombre: Sensacion de felicidad extrema, algría y bienestar.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Odyssey</h3>
+                    <p>Significado del Nombre: Viaje largo y desafiante con un proposito.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Perseverance</h3>
+                    <p>Significado del Nombre: Cosntancia, determinación para superar obstáculos y alcanzar la meta.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>PRISMA</h3>
+                    <p>Significado del Nombre: Proceso, Resilencia, Inspiración, Sueños, Metas y Amistades.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Sule</h3>
+                    <p>Significado del Nombre: Siempre unidos logremos el exito.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>LARSEN</h3>
+                    <p>Significado del Nombre: La amistad reinara siempre en nosotros.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Nova</h3>
+                    <p>Significado del Nombre: Significa nuevo en latin, perfecto para una promoción que inicia un nuevo capitulo.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Zenit</h3>
+                    <p>Significado del Nombre: El punto más alto. Representa alcanzar la cima y el exito.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+                <div class="nombre" id="nombre25">
+                    <h3>Aura</h3>
+                    <p>Significado del Nombre: Energia que rodea al espiritu de una persona, representa el espiritu de la promoción.</p>
+                    <button onclick="vote('nombre25')">Votar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
